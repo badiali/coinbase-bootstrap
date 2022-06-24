@@ -94,17 +94,10 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Bootstrap + Sass + Webpack - Inicio',
-      bodyClass: 'inicio d-flex justify-content-center w-100 h-100 bg-primary bg-gradient',
+      title: 'Coinbase Open-Bootcamp - Luis Badiali',
+      bodyClass: '',
       filename: 'index.html',
       template: 'src/views/index.hbs',
-      minify: true
-    }),
-    new HtmlWebpackPlugin({
-      title: 'Bootstrap + Sass + Webpack - Contacto',
-      bodyClass: 'contacto d-flex justify-content-center w-100 h-100 bg-secondary bg-gradient',
-      filename: 'contacto.html',
-      template: 'src/views/contacto.hbs',
       minify: true
     }),
     new MiniCssExtractPlugin({

@@ -1,0 +1,65 @@
+/*
+ * Google web font
+ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Lato:wght@400;700&display=swap');
+
+/*
+ * Bootstrap
+ */
+
+/* Funciones */
+@import 'bootstrap/scss/functions';
+
+/* Variables del tema */
+@import 'bootstrap_overrides';
+
+/* Obligatorio */
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/maps';
+@import 'bootstrap/scss/mixins';
+@import "bootstrap/scss/root";
+@import 'bootstrap/scss/utilities';
+
+/* Mapas personalizados */
+@import 'bootstrap_maps';
+
+/* Opcional */
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/helpers";
+@import "bootstrap/scss/type";
+/*
+@import "bootstrap/scss/button-group";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/list-group";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/modal";
+@import "bootstrap/scss/offcanvas";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/badge";
+@import "bootstrap/scss/pagination";
+@import "bootstrap/scss/breadcrumb";
+@import "bootstrap/scss/close";
+@import "bootstrap/scss/tables";
+@import "bootstrap/scss/accordion";
+@import "bootstrap/scss/alert";
+@import "bootstrap/scss/progress";
+@import "bootstrap/scss/toasts";
+@import "bootstrap/scss/tooltip";
+@import "bootstrap/scss/popover";
+@import "bootstrap/scss/carousel";
+@import "bootstrap/scss/spinners";
+@import "bootstrap/scss/placeholders";
+*/
+
+/* Utilidades API */
+@import "bootstrap/scss/utilities/api";
+
+/* Tema */
+@import 'theme';

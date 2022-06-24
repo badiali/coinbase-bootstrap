@@ -1,0 +1,24 @@
+/*
+ * Utilidades
+ */
+
+@mixin imageFit($fit, $position) {
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	object-fit: $fit;
+	object-position: $position;
+}
+
+img.image-fit {
+	@include imageFit(cover, center);
+  &.top {
+    @include imageFit(cover, top);
+  }
+	&.contain {
+		@include imageFit(contain, center);
+	}
+}

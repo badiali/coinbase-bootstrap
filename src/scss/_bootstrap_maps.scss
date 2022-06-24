@@ -1,0 +1,6 @@
+/*
+ * Bootstrap maps
+ */
+
+// Quitamos los temas de colores por defecto
+$theme-colors: map-remove($theme-colors, "success", "danger", "warning", "info", "light", "dark");

@@ -1,0 +1,35 @@
+/*
+ * Tema
+ */
+
+/* Iconos */
+@import 'icons';
+
+/* Mixins */
+@import 'mixins';
+
+.inicio {
+  color: white;
+  a:not(.btn) {
+    color: $secondary;
+    &:hover {
+      color: darken($secondary, 15%);
+    }
+  }
+}
+
+.contacto {
+  color: $primary;
+  a:not(.btn) {
+    color: $primary;
+    &:hover {
+      color: darken($primary, 15%);
+    }
+  }
+}
+
+h1 {
+  @include font-size(5rem);
+  line-height: .9;
+  letter-spacing: -2px;
+}

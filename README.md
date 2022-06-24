@@ -1,5 +1,5 @@
 # Proyecto final HTML y CSS de Open-Bootcamp
-Maquetación HTML y CSS con Bootstrap de una propuesta de diseño para Coinbase.
+Página principal de [Coinbase](https://www.coinbase.com/) maquetada con Bootstrap.
 
 ## Instalación
 

@@ -94,7 +94,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Coinbase Open-Bootcamp - Luis Badiali',
+      title: 'Coinbase Bootstrap - Luis Badiali',
       bodyClass: '',
       filename: 'index.html',
       template: 'src/views/index.hbs',

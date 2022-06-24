@@ -1,7 +1,7 @@
 {
-  "name": "coinbase-open-bootcamp",
+  "name": "coinbase-bootstrap",
   "version": "2.0.0",
-  "description": "Proyecto final HTML y CSS Open-Bootcamp | Bootstrap + Sass + Webpack",
+  "description": "Proyecto final HTML y CSS Open-Bootcamp | Coinbase Bootstrap",
   "author": {
     "name": "Luis Badiali",
     "email": "luis@badiali.es",
@@ -12,10 +12,10 @@
     "sass",
     "webpack"
   ],
-  "homepage": "https://github.com/badiali/coinbase-open-bootcamp#readme",
+  "homepage": "https://github.com/badiali/coinbase-bootstrap#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/badiali/coinbase-open-bootcamp.git"
+    "url": "https://github.com/badiali/coinbase-bootstrap.git"
   },
   "license": "MIT",
   "scripts": {

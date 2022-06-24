@@ -95,7 +95,8 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Coinbase Bootstrap - Luis Badiali',
-      bodyClass: '',
+      description: 'Coinbase Bootstrap - Luis Badiali',
+      bodyClass: 'Coinbase maquetado con Bootstrap - Luis Badiali',
       filename: 'index.html',
       template: 'src/views/index.hbs',
       minify: true

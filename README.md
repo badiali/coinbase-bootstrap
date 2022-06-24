@@ -1,21 +1,9 @@
-![Imagen de cabecera Bootstrap + Sass + Webpack](https://repository-images.githubusercontent.com/241963852/02a9dc00-5955-11ea-9e47-506b9d2fa5bf "Imagen de cabecera Bootstrap + Sass + Webpack")
-
-# Bootstrap + Sass + Webpack
-🚀 Plantilla para iniciar proyectos basados en estas herramientas | Bootstrap + Sass + Webpack (SPA, MPA)
-
-## NUEVA versión
-
-Puedes ver esta versión 'live' en **Vercel** aquí:
-[bootstrap-sass-webpack.vercel.app](https://bootstrap-sass-webpack.vercel.app/)
-
-- Plantillas con Handlebars
-- Fuente cargada de **Google Fonts**
-
-![bootstrap-webpack-badiali](https://user-images.githubusercontent.com/8589135/88863847-1ad39f00-d204-11ea-97d0-a452b226672a.gif)
+# Proyecto final HTML y CSS de Open-Bootcamp
+Maquetación HTML y CSS con Bootstrap de una propuesta de diseño para Coinbase.
 
 ## Instalación
 
-1. Clonar el repositorio: `git clone https://github.com/badiali/bootstrap-sass-webpack.git`
+1. Clonar el repositorio: `git clone https://github.com/badiali/coinbase-open-bootcamp.git`
 2. `npm install`
 
 ## Una vez instalado

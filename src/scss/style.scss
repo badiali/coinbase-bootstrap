@@ -3,20 +3,20 @@
  */
 
 /* Funciones */
-@import 'bootstrap/scss/functions';
+@import "bootstrap/scss/functions";
 
 /* Variables del tema */
-@import 'bootstrap_overrides';
+@import "bootstrap_overrides";
 
 /* Obligatorio */
-@import 'bootstrap/scss/variables';
-@import 'bootstrap/scss/maps';
-@import 'bootstrap/scss/mixins';
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
 @import "bootstrap/scss/root";
-@import 'bootstrap/scss/utilities';
+@import "bootstrap/scss/utilities";
 
 /* Mapas personalizados */
-@import 'bootstrap_maps';
+@import "bootstrap_maps";
 
 /* Opcional */
 @import "bootstrap/scss/reboot";
@@ -59,4 +59,4 @@
 @import "bootstrap/scss/utilities/api";
 
 /* Tema */
-@import 'theme';
+@import "theme";

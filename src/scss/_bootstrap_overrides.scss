@@ -11,19 +11,20 @@ $grid-breakpoints: (
   sm: 480px,
   md: 768px,
   lg: 1050px,
-  xl: 1200px
+  xl: 1200px,
 );
 $container-max-widths: (
   sm: 420px,
   md: 720px,
   lg: 960px,
-  xl: 1220px
+  xl: 1220px,
 );
 $grid-gutter-width: 2.5rem;
 
 /* Colores */
 $primary: rgb(0, 82, 255);
 $dark: rgb(5, 15, 25);
+$text-muted: rgb(17, 51, 83);
 
 /* Fuente */
 $font-family-base: CoinbaseSans, sans-serif;

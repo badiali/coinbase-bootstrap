@@ -2,14 +2,14 @@
  * Tema
  */
 
- /* Fuentes */
-@import 'fonts';
+/* Fuentes */
+@import "fonts";
 
 /* Iconos */
-@import 'icons';
+@import "icons";
 
 /* Mixins */
-@import 'mixins';
+@import "mixins";
 
 img.image-fit {
   @include imageFit(cover, center);
@@ -28,4 +28,4 @@ html {
 }
 
 /* Header */
-@import 'header';
+@import "header";

@@ -12,12 +12,40 @@
     <link
       rel="shortcut icon"
       type="image/png"
-      href="./src/images/favicon.png"
+      href="./src/img/favicon.png"
     />
   </head>
   <body>
-    <header class="header fixed-top border-bottom">
+    <header class="header fixed-top bg-white border-bottom">
       {{> partials/header}}
     </header>
+    <main class="main" style="height:2000px;">
+      <section class="portfolio-hero container-xl p-md-5">
+        <div class="row gx-3 flex-nowrap align-items-center py-5 py-md-3">
+          <div class="col-md-8 col-lg-6 ps-lg-5">
+            <a class="d-flex align-items-center fw-bold mb-3" href="#">
+              <img class="me-2" src="./src/img/bitcoin.svg" alt="Bitcoin">
+              Jump start your portfolio
+              <i class="icon icon-arrow ms-2"></i>
+            </a>
+            <h1 class="fw-bold mb-4">Jump start your crypto portfolio</h1>
+            <h3 class="mb-4">Coinbase is the easiest place to buy and sell cryptocurrency. Sign up and get started today.</h3>
+            <form class="row flex-column flex-md-row gx-3 gy-2 pt-2">
+              <div class="col-md-7">
+                <input class="form-control form-control-lg h-100 py-4 py-md-0" type="email" placeholder="Email address" aria-label="Email address">
+              </div>
+              <div class="col-md-5">
+                <button class="btn btn-lg btn-primary w-100" type="button">Get started</button>
+              </div>
+            </form>
+          </div>
+          <div class="d-none d-md-flex col-md-8 col-lg-6">
+            <figure class="position-relative w-100 m-0">
+              <img class="image-fit contain" src="./src/img/mobile.png" alt="Portfolio balance">
+            </figure>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

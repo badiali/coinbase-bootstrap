@@ -42,11 +42,14 @@ import './assets/fonts/CoinbaseText-Medium.woff2';
 
 /* JS Bootstrap */
 import Dropdown from 'bootstrap/js/dist/dropdown';
+import Offcanvas from 'bootstrap/js/dist/offcanvas';
 
 /* Animación del burger */
-let burgerBtt = document.querySelector('.burger-btt');
-let burgerBttBar = document.querySelector('.burger-btt-wrap-bar');
-burgerBtt.addEventListener('click', function(e) {
-  e.preventDefault();
-  burgerBttBar.classList.toggle('active');
+const offCanvasMenu = document.getElementById('navbarOffcanvasLg');
+const burgerBttBar = document.querySelector('.burger-btt-wrap-bar');
+offCanvasMenu.addEventListener('shown.bs.offcanvas', event => {
+  burgerBttBar.classList.add('active');
+});
+offCanvasMenu.addEventListener('hidden.bs.offcanvas', event => {
+  burgerBttBar.classList.remove('active');
 });

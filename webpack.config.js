@@ -105,5 +105,8 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'src/css/[name].css'
     }),
+    new PurgecssPlugin({
+      paths: glob.sync(`${PATHS.src}/**/*.hbs`,  { nodir: true }),
+    }),
   ],
 };

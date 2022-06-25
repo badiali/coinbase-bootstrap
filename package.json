@@ -1,6 +1,7 @@
 {
   "name": "coinbase-bootstrap",
   "version": "2.0.0",
+  "private": true,
   "description": "Proyecto final HTML y CSS Open-Bootcamp | Coinbase Bootstrap",
   "author": {
     "name": "Luis Badiali",

@@ -4,14 +4,16 @@
 
 $iconColor: $dark !default;
 
-@mixin iconAngleRight($iconColor) {
+@mixin iconAngle($iconColor) {
   background-image: url(escape_svg(
     'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"><path d="M7.172 5.773L2.257.823.5 2.593l3.157 3.18L.5 8.953l1.757 1.77 4.915-4.95z" fill="#{$iconColor}"></path></svg>'
   ));
 }
-// @mixin iconXXX($iconColor) {
-// 	background-image: url(escape_svg('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="#{$iconColor}" viewBox='));
-// }
+@mixin iconArrow($iconColor) {
+	background-image: url(escape_svg(
+    'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 12" fill="none"><path d="M0 7h12.17l-3.28 3.28 1.41 1.41L16 6 10.3.31 8.89 1.72 12.17 5H0v2z" fill="#{$iconColor}"></path></svg>'
+  ));
+}
 
 .icon {
   display: flex;
@@ -25,12 +27,12 @@ $iconColor: $dark !default;
     background-repeat: no-repeat;
     background-size: contain;
   }
-  &-angle-right::before {
+  &-angle::before {
     width: 8px;
     height: 11px;
-    @include iconAngleRight($iconColor);
+    @include iconAngle($iconColor);
   }
-  // &-XXX::before {
-  // 	@include iconXXX($iconColor);
-  // }
+  &-arrow::before {
+  	@include iconArrow($iconColor);
+  }
 }

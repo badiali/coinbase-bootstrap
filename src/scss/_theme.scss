@@ -2,6 +2,10 @@
  * Tema
  */
 
+/* Variables del tema */
+$header-height: 67px;
+$header-mobile-height: 58px;
+
 /* Fuentes */
 @import "fonts";
 
@@ -27,5 +31,54 @@ html {
   -moz-osx-font-smoothing: auto;
 }
 
+body {
+  padding-top: $header-mobile-height;
+  @include media-breakpoint-up(lg) {
+    padding-top: $header-height;
+  }
+}
+
+.btn:focus,
+.btn:active,
+.btn:active:focus {
+  box-shadow: none;
+}
+
 /* Header */
 @import "header";
+
+/* Main */
+.portfolio-hero {
+  overflow: hidden;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .icon-arrow::before {
+    width: 16px;
+    @include iconArrow($primary);
+  }
+  h1 {
+    font-size: 2.125rem;
+    line-height: 1.15em;
+    @include media-breakpoint-up(md) {
+      max-width: 425px;
+      font-size: 3.785rem;
+    }
+  }
+  h3 {
+    font-size: 1rem;
+    line-height: 1.4em;
+    font-weight: normal;
+    @include media-breakpoint-up(md) {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+  }
+  figure {
+    height: 600px;
+  }
+  form {
+    .btn {
+      padding: 1.3rem;
+    }
+  }
+}

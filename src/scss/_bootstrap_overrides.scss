@@ -28,6 +28,7 @@ $text-muted: rgb(17, 51, 83);
 
 /* Fuente */
 $font-family-base: CoinbaseSans, sans-serif;
+$headings-font-family: CoinbaseDisplay, sans-serif;
 $font-weight-bold: bolder;
 
 /* Links */
@@ -36,8 +37,18 @@ $link-decoration: none;
 /* Buttons */
 $btn-font-weight: bolder;
 $btn-border-radius: 4px;
-$btn-padding-y-sm: 7px;
+$btn-padding-y-sm: 5px;
 $btn-padding-x-sm: 12px;
+$btn-padding-y-lg: 13px;
+$btn-padding-x-lg: 20px;
+$btn-font-size-lg: 1rem;
+$btn-border-radius-lg: 5px;
+$btn-border-width: 2px;
+
+/* Inputs */
+$input-border-radius: 4px;
+$input-border-radius-sm: 4px;
+$input-border-radius-lg: 4px;
 
 /* Navbar */
 $navbar-brand-padding-y: 0;

@@ -1,5 +1,5 @@
 .header {
-  height: 58px;
+  height: $header-mobile-height;
   .navbar-brand {
     margin-bottom: 3px;
   }
@@ -42,9 +42,9 @@
       }
       &:hover {
         color: $primary;
-        .icon-angle-right {
+        .icon-angle {
           &::before {
-            @include iconAngleRight($primary);
+            @include iconAngle($primary);
           }
         }
         .text-muted {
@@ -61,7 +61,7 @@
     }
   }
   @include media-breakpoint-up(lg) {
-    height: 67px;
+    height: $header-height;
   }
 }
 
@@ -86,7 +86,7 @@
       width: 8px;
       height: 11px;
       background-color: transparent;
-      @include iconAngleRight($dark);
+      @include iconAngle($dark);
     }
   }
   .nav-link.dropdown-toggle::before {

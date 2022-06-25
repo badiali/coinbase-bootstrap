@@ -6,8 +6,34 @@
 $enable-rfs: true;
 $enable-gradients: true;
 
+/* Grid */
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1200px
+);
+$container-max-widths: (
+  sm: 420px,
+  md: 720px,
+  lg: 960px,
+  xl: 1220px
+);
+$grid-gutter-width: 2.5rem;
+
 /* Colores */
 $primary: rgb(0, 82, 255);
+$dark: rgb(5, 15, 25);
 
 /* Fuente */
 $font-family-base: CoinbaseSans, sans-serif;
+$font-weight-bold: bolder;
+
+/* Links */
+$link-decoration: none;
+
+/* Navbar */
+$navbar-brand-padding-y: 0;
+$navbar-brand-margin-end: 0;
+$enable-caret: false;

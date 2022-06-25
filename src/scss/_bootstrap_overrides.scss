@@ -4,7 +4,6 @@
 
 /* Opciones */
 $enable-rfs: true;
-$enable-gradients: true;
 
 /* Grid */
 $grid-breakpoints: (
@@ -32,6 +31,12 @@ $font-weight-bold: bolder;
 
 /* Links */
 $link-decoration: none;
+
+/* Buttons */
+$btn-font-weight: bolder;
+$btn-border-radius: 4px;
+$btn-padding-y-sm: 7px;
+$btn-padding-x-sm: 12px;
 
 /* Navbar */
 $navbar-brand-padding-y: 0;

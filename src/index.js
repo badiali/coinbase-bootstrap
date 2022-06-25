@@ -4,8 +4,10 @@ import './scss/style.scss';
 /* Imágenes */
 import './assets/img/favicon.png';
 import './assets/img/coinbase.svg';
+import './assets/img/mobile.png';
 
 /* Iconos */
+import './assets/img/bitcoin.svg';
 // Individuals
 import './assets/img/coinbase-icon.svg';
 import './assets/img/new-earn-icon.svg';

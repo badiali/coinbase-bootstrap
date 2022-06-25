@@ -1,5 +1,5 @@
-# Coinbase maquetada con Bootstrap
-Página principal de [Coinbase](https://www.coinbase.com/) maquetada con Bootstrap.
+# coinbase.com + Bootstrap
+Página principal de [coinbase](https://www.coinbase.com/) maquetada con Bootstrap.
 
 Proyecto final HTML y CSS de [Open-Bootcamp](https://open-bootcamp.com/).
 

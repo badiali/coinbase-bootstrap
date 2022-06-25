@@ -1,12 +1,15 @@
 # coinbase.com + Bootstrap
-Página principal de [coinbase](https://www.coinbase.com/) maquetada con:
+Página principal de [coinbase](https://www.coinbase.com) maquetada con:
 
 - Bootstrap
 - Sass
 - Handlebars
 - Webpack
 
-Proyecto final para el curso de HTML y CSS de [Open-Bootcamp](https://open-bootcamp.com/).
+Proyecto final para el curso de HTML y CSS de [Open-Bootcamp](https://open-bootcamp.com).
+
+## Demo
+[coinbase-bootstrap.netlify.app](https://coinbase-bootstrap.netlify.app)
 
 ## Instalación
 

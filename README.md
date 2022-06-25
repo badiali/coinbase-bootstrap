@@ -1,7 +1,12 @@
 # coinbase.com + Bootstrap
-Página principal de [coinbase](https://www.coinbase.com/) maquetada con Bootstrap.
+Página principal de [coinbase](https://www.coinbase.com/) maquetada con:
 
-Proyecto final HTML y CSS de [Open-Bootcamp](https://open-bootcamp.com/).
+- Bootstrap
+- Sass
+- Handlebars
+- Webpack
+
+Proyecto final para el curso de HTML y CSS de [Open-Bootcamp](https://open-bootcamp.com/).
 
 ## Instalación
 

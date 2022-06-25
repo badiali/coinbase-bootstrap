@@ -8,7 +8,7 @@
         alt="Coinbase"
       />
     </a>
-    <nav class="h-100">
+    <nav class="d-none d-lg-block h-100 ms-auto">
       <ul class="navbar-nav h-100 flex-row align-items-center">
         <li class="nav-item h-100 fw-bold">
           <a
@@ -81,24 +81,20 @@
         </li>
       </ul>
     </nav>
-    <ul class="list-unstyled d-flex align-items-center mb-0">
-      <li class="me-4">
+    <ul class="header-login list-unstyled d-flex align-items-center mb-0 ms-auto">
+      <li class="d-none d-lg-block me-4">
         <a class="fw-bold" href="#">Sign in</a>
       </li>
       <li>
         <button class="btn btn-sm btn-primary" type="button">Get started</button>
       </li>
     </ul>
-    <button
-      class="navbar-toggler d-none"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
+    <button class="burger-btt d-lg-none bg-transparent border-0 ms-4" type="button">
+      <div class="burger-btt-wrap position-relative">
+        <div class="burger-btt-wrap-bar position-absolute bg-dark">
+          <span class="visually-hidden">Menu</span>
+        </div>
+      </div>
     </button>
   </div>
 </nav>

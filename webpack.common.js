@@ -3,38 +3,42 @@ const glob = require('glob');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const PurgecssPlugin = require('purgecss-webpack-plugin');
-const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
-const TerserPlugin = require('terser-webpack-plugin');
 
 const PATHS = {
-  src: path.join(__dirname, 'src')
+  src: path.resolve(__dirname, 'src')
 }
 
 module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'src/js/bundle.js',
-    path: path.join(__dirname, 'dist')
-  },
-  devServer: {
-    watchFiles: ['src/**/*.hbs'],
-    open: true,
-    hot: true
+    path: path.resolve(__dirname, 'dist'),
+    clean: true,
   },
   module: {
     rules: [
       {
         test: /\.hbs$/,
-        loader: 'handlebars-loader'
+        loader: 'handlebars-loader',
+      },
+      {
+        test: /\.m?js$/,
+        exclude: /(node_modules)/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env']
+          }
+        }
       },
       {
         test: /\.(scss)$/,
         use: [
           {
-            loader: MiniCssExtractPlugin.loader
+            loader: MiniCssExtractPlugin.loader,
           },
           {
-            loader: 'css-loader'
+            loader: 'css-loader',
           },
           {
             loader: 'postcss-loader',
@@ -42,14 +46,14 @@ module.exports = {
               postcssOptions: {
                 plugins: function () {
                   return [
-                    require('autoprefixer')
+                    require('autoprefixer'),
                   ];
                 },
               },
             },
           },
           {
-            loader: 'sass-loader'
+            loader: 'sass-loader',
           }
         ]
       },
@@ -57,42 +61,16 @@ module.exports = {
         test: /\.(jpg|png|svg)$/,
         type: 'asset/resource',
         generator: {
-          filename: 'src/img/[name][ext]'
+          filename: 'src/img/[name][ext]',
         },
       },
       {
         test: /\.(woff|woff2)$/,
         type: 'asset/resource',
         generator: {
-          filename: 'src/fonts/[name][ext]'
+          filename: 'src/fonts/[name][ext]',
         },
       },
-    ],
-  },
-  optimization: {
-    minimize: true,
-    minimizer: [
-      new ImageMinimizerPlugin({
-        minimizer: {
-          implementation: ImageMinimizerPlugin.imageminMinify,
-          options: {
-            plugins: [
-              ['mozjpeg', {
-                progressive: true,
-                quality: 60
-              }],
-            ],
-          },
-        },
-      }),
-      new TerserPlugin({
-        terserOptions: {
-          format: {
-            comments: false
-          },
-        },
-        extractComments: false
-      }),
     ],
   },
   plugins: [
@@ -100,10 +78,10 @@ module.exports = {
       title: 'coinbase.com + Bootstrap - Luis Badiali',
       description: 'Página principal de coinbase.com maquetada con Bootstrap - Luis Badiali',
       filename: 'index.html',
-      template: 'src/views/index.hbs'
+      template: 'src/views/index.hbs',
     }),
     new MiniCssExtractPlugin({
-      filename: 'src/css/[name].css'
+      filename: 'src/css/[name].css',
     }),
     new PurgecssPlugin({
       paths: glob.sync(`${PATHS.src}/**/*.hbs`,  { nodir: true }),

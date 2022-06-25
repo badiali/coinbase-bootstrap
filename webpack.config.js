@@ -17,7 +17,9 @@ module.exports = {
     path: path.join(__dirname, 'dist')
   },
   devServer: {
-    open: true
+    watchFiles: ['src/**/*.hbs'],
+    open: true,
+    hot: true
   },
   module: {
     rules: [

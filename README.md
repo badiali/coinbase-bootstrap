@@ -5,7 +5,7 @@ Proyecto final HTML y CSS de [Open-Bootcamp](https://open-bootcamp.com/).
 
 ## Instalación
 
-1. Clonar el repositorio: `git clone https://github.com/badiali/coinbase-open-bootcamp.git`
+1. Clonar el repositorio: `git clone https://github.com/badiali/coinbase-bootstrap.git`
 2. `npm install`
 
 ## Una vez instalado

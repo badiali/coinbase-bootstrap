@@ -16,17 +16,60 @@
             href="#"
           >Explore</a>
         </li>
-        <li class="nav-item h-100 fw-bold">
+        <li class="nav-item h-100 dropdown fw-bold">
           <a
-            class="nav-link position-relative d-flex align-items-center h-100 text-dark"
+            class="nav-link position-relative dropdown-toggle d-flex align-items-center h-100 text-dark"
             href="#"
-          >Learn</a>
+            id="learnDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Learn
+          </a>
+          <div
+            class="dropdown-menu d-block position-fixed w-100 rounded-0 border-0 m-0 shadow"
+            aria-labelledby="learnDropdown"
+          >
+            <div class="container-xl">
+              <div class="row justify-content-center">
+                <div class="col-auto me-5">
+                  <ul class="header-list-links list-unstyled mb-0">
+                    <li class="mb-4">
+                      <a class="d-flex align-items-center" href="#">
+                        <i class="icon icon-angle-right me-3"></i>
+                        Tips & Tutorials
+                      </a>
+                    </li>
+                    <li class="mb-4">
+                      <a class="d-flex align-items-center" href="#">
+                        <i class="icon icon-angle-right me-3"></i>
+                        Crypto basics
+                      </a>
+                    </li>
+                    <li>
+                      <a class="d-flex align-items-center" href="#">
+                        <i class="icon icon-angle-right me-3"></i>
+                        Market updates
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-auto d-flex flex-column">
+                  <h6 class="fw-bold mb-2">Crypto questions, answered</h6>
+                  <p class="fw-normal">Guides and explainers for your crypto
+                    questions.</p>
+                  <a class="mt-auto" href="#">See all articles</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
         <li class="nav-item h-100 dropdown fw-bold">
           <a
             class="nav-link position-relative dropdown-toggle d-flex align-items-center h-100 text-dark"
             href="#"
-            id="navbarDropdown"
+            id="individualsDropdown"
             role="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
@@ -34,55 +77,508 @@
             Individuals
           </a>
           <div
-            class="dropdown-menu position-fixed w-100 rounded-0 border-0 m-0"
-            aria-labelledby="navbarDropdown"
+            class="dropdown-menu d-block position-fixed w-100 rounded-0 border-0 m-0 shadow"
+            aria-labelledby="individualsDropdown"
           >
-            <div class="container">
-              <div class="row">
+            <div class="container-xl px-0">
+              <div class="row gx-0 justify-content-center">
                 <div class="col-4">
-                  <ul>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
+                  <ul class="header-list-links list-unstyled mb-0">
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/coinbase-icon.svg"
+                            alt="coinbase icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          Buy and sell
+                          <span class="d-block text-muted fw-normal">Buy, sell
+                            and use crypto</span>
+                        </p>
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/new-earn-icon.svg"
+                            alt="New earn icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          Earn
+                          <span class="d-block text-muted fw-normal">Learn and
+                            earn crypto</span>
+                        </p>
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/new-private-client-icon.svg"
+                            alt="Private client icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          Private Client
+                          <span class="d-block text-muted fw-normal">For trusts,
+                            family offices, UHNWIs</span>
+                        </p>
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/NFT.svg"
+                            alt="NFT icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          NFT
+                          <span class="d-block text-muted fw-normal">Create,
+                            collect, connect</span>
+                        </p>
+                      </a>
+                    </li>
                   </ul>
                 </div>
-                <div class="col-4">
-                  <ul>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
+                <div class="col-5 col-xl-4 ps-3 ps-xl-0">
+                  <ul class="header-list-links list-unstyled mb-0">
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/new-wallet-icon.svg"
+                            alt="New wallet icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          Wallet
+                          <span class="d-block text-muted fw-normal">The best
+                            self-hosted crypto wallet</span>
+                        </p>
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/new-card-icon.svg"
+                            alt="New card icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          Card
+                          <span class="d-block text-muted fw-normal">Spend
+                            crypto, earn crypto rewards</span>
+                        </p>
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/new-borrow-icon.svg"
+                            alt="New borrow icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          Borrow
+                          <span class="d-block text-muted fw-normal">Borrow cash
+                            using Bitcoin as collateral</span>
+                        </p>
+                      </a>
+                    </li>
                   </ul>
                 </div>
-                <div class="col-4">
-                  <ul>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                  </ul>
+                <div class="col-3 col-xl-4 ps-xl-3">
+                  <h6 class="fw-bold mb-2">Learn all about Coinbase</h6>
+                  <p class="fw-normal">We're building an open financial system
+                    for the world.</p>
+                  <a href="#">See all products</a>
                 </div>
               </div>
             </div>
           </div>
         </li>
-        <li class="nav-item h-100 fw-bold">
+        <li class="nav-item h-100 dropdown fw-bold">
           <a
-            class="nav-link position-relative d-flex align-items-center h-100 text-dark"
-          >Businesses</a>
+            class="nav-link position-relative dropdown-toggle d-flex align-items-center h-100 text-dark"
+            href="#"
+            id="businessDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Business
+          </a>
+          <div
+            class="dropdown-menu d-block position-fixed w-100 rounded-0 border-0 m-0 shadow"
+            aria-labelledby="businessDropdown"
+          >
+            <div class="container-xl px-0">
+              <div class="row gx-0 justify-content-center">
+                <div class="col-4">
+                  <ul class="header-list-links list-unstyled mb-0">
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/new-institutional-icon.svg"
+                            alt="New institutional icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          Institutional
+                          <span class="d-block text-muted fw-normal">Solutions for institutional investors</span>
+                        </p>
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/new-commerce-icon.svg"
+                            alt="New commerce icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          Commerce
+                          <span class="d-block text-muted fw-normal">Accept crypto from anyone</span>
+                        </p>
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/new-assetHub-icon.svg"
+                            alt="New asset hub icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          Asset Hub
+                          <span class="d-block text-muted fw-normal">List your asset on Coinbase</span>
+                        </p>
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/new-analytics-icon.svg"
+                            alt="New analytics icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          Compliance
+                          <span class="d-block text-muted fw-normal">Power your crypto compliance</span>
+                        </p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-5 col-xl-4 ps-3 ps-xl-0">
+                  <ul class="header-list-links list-unstyled mb-0">
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/new-prime-icon.svg"
+                            alt="New prime icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          Prime
+                          <span class="d-block text-muted fw-normal">The prime brokerage platform</span>
+                        </p>
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/new-custody-icon.svg"
+                            alt="New custody icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          Custody
+                          <span class="d-block text-muted fw-normal">Institutional-grade offline storage</span>
+                        </p>
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/new-exchange-icon.svg"
+                            alt="New exchange icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          Exchange
+                          <span class="d-block text-muted fw-normal">Direct access to our exchange</span>
+                        </p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-3 col-xl-4 ps-xl-3">
+                  <h6 class="fw-bold mb-2">Built for businesses and institutions</h6>
+                  <p class="fw-normal">Crypto solutions for institutional investors, family offices, and businesses.</p>
+                  <a href="#">See all products</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
-        <li class="nav-item h-100 fw-bold">
+        <li class="nav-item h-100 dropdown fw-bold">
           <a
-            class="nav-link position-relative d-flex align-items-center h-100 text-dark"
-          >Developers</a>
+            class="nav-link position-relative dropdown-toggle d-flex align-items-center h-100 text-dark"
+            href="#"
+            id="developersDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Developers
+          </a>
+          <div
+            class="dropdown-menu d-block position-fixed w-100 rounded-0 border-0 m-0 shadow"
+            aria-labelledby="developersDropdown"
+          >
+            <div class="container-xl px-0">
+              <div class="row gx-0 justify-content-center">
+                <div class="col-4">
+                  <ul class="header-list-links list-unstyled mb-0">
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/cloudicon.png"
+                            alt="Cloud icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          Cloud
+                          <span class="d-block text-muted fw-normal">Suite of APIs and node infrastructure</span>
+                        </p>
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/walletlinkicon.png"
+                            alt="Wallet SDK icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          Wallet SDK
+                          <span class="d-block text-muted fw-normal">Link dapps to Coinbase Wallet</span>
+                        </p>
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/ProductIcon_Pay.svg"
+                            alt="Coinbase Pay SDK icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          Coinbase Pay SDK
+                          <span class="d-block text-muted fw-normal">Easy, secure fiat-to-crypto solution</span>
+                        </p>
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/SignIn.svg"
+                            alt="Sign in with Coinbase icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          Sign in with Coinbase
+                          <span class="d-block text-muted fw-normal">Offer Coinbase users easy login to dapps</span>
+                        </p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-5 col-xl-4 ps-3 ps-xl-0">
+                  <ul class="header-list-links list-unstyled mb-0">
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/commerceicon.png"
+                            alt="Commerce icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          Commerce
+                          <span class="d-block text-muted fw-normal">Accept crypto payments from customers</span>
+                        </p>
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/exchangeicon.png"
+                            alt="Exchange & Pro icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          Exchange & Pro
+                          <span class="d-block text-muted fw-normal">Power automated trading</span>
+                        </p>
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a class="d-flex align-items-center" href="#">
+                        <figure class="list-links-icon m-0 me-3">
+                          <img
+                            width="40"
+                            height="40"
+                            src="./src/img/querytransacticon.png"
+                            alt="Query & Transact icon"
+                          />
+                        </figure>
+                        <p class="mb-0">
+                          Query & Transact
+                          <span class="d-block text-muted fw-normal">Read and write blockchain data</span>
+                        </p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-3 col-xl-4 ps-xl-3">
+                  <h6 class="fw-bold mb-2">Built for developers</h6>
+                  <p class="fw-normal">Tools and APIs for developers building the future of web3</p>
+                  <a href="#">See all products</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
-        <li class="nav-item h-100 fw-bold">
+        <li class="nav-item h-100 dropdown fw-bold">
           <a
-            class="nav-link position-relative d-flex align-items-center h-100 text-dark"
-          >Company</a>
+            class="nav-link position-relative dropdown-toggle d-flex align-items-center h-100 text-dark"
+            href="#"
+            id="companyDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Company
+          </a>
+          <div
+            class="dropdown-menu d-block position-fixed w-100 rounded-0 border-0 m-0 shadow"
+            aria-labelledby="companyDropdown"
+          >
+            <div class="container-xl">
+              <div class="row justify-content-center">
+                <div class="col-auto me-5">
+                  <ul class="header-list-links list-unstyled mb-0">
+                    <li class="mb-4">
+                      <a class="d-flex align-items-center" href="#">
+                        <i class="icon icon-angle-right me-3"></i>
+                        About
+                      </a>
+                    </li>
+                    <li class="mb-4">
+                      <a class="d-flex align-items-center" href="#">
+                        <i class="icon icon-angle-right me-3"></i>
+                        Affiliates
+                      </a>
+                    </li>
+                    <li>
+                      <a class="d-flex align-items-center" href="#">
+                        <i class="icon icon-angle-right me-3"></i>
+                        Blog
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-auto me-5">
+                  <ul class="header-list-links list-unstyled mb-0">
+                    <li class="mb-4">
+                      <a class="d-flex align-items-center" href="#">
+                        <i class="icon icon-angle-right me-3"></i>
+                        Careers
+                      </a>
+                    </li>
+                    <li class="mb-4">
+                      <a class="d-flex align-items-center" href="#">
+                        <i class="icon icon-angle-right me-3"></i>
+                        Support
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-auto d-flex flex-column">
+                  <h6 class="fw-bold mb-2">Learn all about Coinbase</h6>
+                  <p class="fw-normal">We're building an open financial system
+                    for the world.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
       </ul>
     </nav>
     <ul
-      class="list-unstyled d-flex align-items-center mb-0 ms-auto"
+      class="header-login list-unstyled d-flex align-items-center mb-0 ms-auto"
     >
       <li class="d-none d-lg-block me-4">
         <a class="fw-bold" href="#">Sign in</a>
@@ -91,10 +587,7 @@
         <button class="btn btn-sm btn-primary" type="button">Get started</button>
       </li>
     </ul>
-    <button
-      class="burger-btt d-lg-none bg-transparent border-0 ms-4"
-      type="button"
-    >
+    <button class="burger-btt d-lg-none bg-transparent border-0" type="button">
       <div class="burger-btt-wrap position-relative">
         <div class="burger-btt-wrap-bar position-absolute bg-dark">
           <span class="visually-hidden">Menu</span>

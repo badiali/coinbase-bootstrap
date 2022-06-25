@@ -2,34 +2,21 @@
  * Tema
  */
 
+ /* Fuentes */
+@import 'fonts';
+
 /* Iconos */
 @import 'icons';
 
 /* Mixins */
 @import 'mixins';
 
-.inicio {
-  color: white;
-  a:not(.btn) {
-    color: $secondary;
-    &:hover {
-      color: darken($secondary, 15%);
-    }
+img.image-fit {
+	@include imageFit(cover, center);
+  &.top {
+    @include imageFit(cover, top);
   }
-}
-
-.contacto {
-  color: $primary;
-  a:not(.btn) {
-    color: $primary;
-    &:hover {
-      color: darken($primary, 15%);
-    }
-  }
-}
-
-h1 {
-  @include font-size(5rem);
-  line-height: .9;
-  letter-spacing: -2px;
+	&.contain {
+		@include imageFit(contain, center);
+	}
 }

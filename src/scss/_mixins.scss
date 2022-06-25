@@ -1,5 +1,5 @@
 /*
- * Utilidades
+ * Mixins
  */
 
 @mixin imageFit($fit, $position) {
@@ -11,14 +11,4 @@
 	overflow: hidden;
 	object-fit: $fit;
 	object-position: $position;
-}
-
-img.image-fit {
-	@include imageFit(cover, center);
-  &.top {
-    @include imageFit(cover, top);
-  }
-	&.contain {
-		@include imageFit(contain, center);
-	}
 }

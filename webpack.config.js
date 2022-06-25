@@ -16,32 +16,6 @@ module.exports = {
     filename: 'src/js/bundle.js',
     path: path.join(__dirname, 'dist')
   },
-  optimization: {
-    minimize: true,
-    minimizer: [
-      new ImageMinimizerPlugin({
-        minimizer: {
-          implementation: ImageMinimizerPlugin.imageminMinify,
-          options: {
-            plugins: [
-              ['mozjpeg', {
-                progressive: true,
-                quality: 60,
-              }],
-            ],
-          },
-        },
-      }),
-      new TerserPlugin({
-        terserOptions: {
-          format: {
-            comments: false,
-          },
-        },
-        extractComments: false,
-      }),
-    ],
-  },
   devServer: {
     open: true
   },
@@ -78,18 +52,45 @@ module.exports = {
         ]
       },
       {
-        test: /\.(jpg|png)$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-              outputPath: 'src/images/',
-              useRelativePath: true,
-            },
-          },
-        ],
+        test: /\.(jpg|png|svg)$/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'src/img/[name][ext]'
+        },
       },
+      {
+        test: /\.(woff|woff2)$/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'src/fonts/[name][ext]'
+        },
+      },
+    ],
+  },
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new ImageMinimizerPlugin({
+        minimizer: {
+          implementation: ImageMinimizerPlugin.imageminMinify,
+          options: {
+            plugins: [
+              ['mozjpeg', {
+                progressive: true,
+                quality: 60,
+              }],
+            ],
+          },
+        },
+      }),
+      new TerserPlugin({
+        terserOptions: {
+          format: {
+            comments: false,
+          },
+        },
+        extractComments: false,
+      }),
     ],
   },
   plugins: [

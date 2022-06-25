@@ -25,7 +25,7 @@ module.exports = {
     rules: [
       {
         test: /\.hbs$/,
-        loader: 'handlebars-loader',
+        loader: 'handlebars-loader'
       },
       {
         test: /\.(scss)$/,
@@ -79,7 +79,7 @@ module.exports = {
             plugins: [
               ['mozjpeg', {
                 progressive: true,
-                quality: 60,
+                quality: 60
               }],
             ],
           },
@@ -88,21 +88,19 @@ module.exports = {
       new TerserPlugin({
         terserOptions: {
           format: {
-            comments: false,
+            comments: false
           },
         },
-        extractComments: false,
+        extractComments: false
       }),
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Coinbase Bootstrap - Luis Badiali',
-      description: 'Coinbase Bootstrap - Luis Badiali',
-      bodyClass: 'Coinbase maquetado con Bootstrap - Luis Badiali',
+      description: 'coinbase.com + Bootstrap - Luis Badiali',
       filename: 'index.html',
-      template: 'src/views/index.hbs',
-      minify: true
+      template: 'src/views/index.hbs'
     }),
     new MiniCssExtractPlugin({
       filename: 'src/css/[name].css'

@@ -20,9 +20,9 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "start": "webpack serve --mode=development",
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production"
   },
   "dependencies": {
     "bootstrap": "^5.2.0-beta1"

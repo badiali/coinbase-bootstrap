@@ -16,3 +16,11 @@ import './assets/fonts/CoinbaseText-Medium.woff2';
 
 /* JS Bootstrap */
 import Dropdown from 'bootstrap/js/dist/dropdown';
+
+/* Animación del burger */
+let burgerBtt = document.querySelector('.burger-btt');
+let burgerBttBar = document.querySelector('.burger-btt-wrap-bar');
+burgerBtt.addEventListener('click', function(e) {
+  e.preventDefault();
+  burgerBttBar.classList.toggle('active');
+});

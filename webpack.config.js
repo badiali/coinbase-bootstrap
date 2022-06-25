@@ -97,8 +97,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Coinbase Bootstrap - Luis Badiali',
-      description: 'coinbase.com + Bootstrap - Luis Badiali',
+      title: 'coinbase.com + Bootstrap - Luis Badiali',
+      description: 'Página principal de coinbase.com maquetada con Bootstrap - Luis Badiali',
       filename: 'index.html',
       template: 'src/views/index.hbs'
     }),

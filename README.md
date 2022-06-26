@@ -1,3 +1,5 @@
+![Imagen de cabecera coinbase.com + Bootstrap](https://repository-images.githubusercontent.com/507161928/d745ce50-0c7d-41cb-a97f-4ad92799768d)
+
 # coinbase.com + Bootstrap
 Página principal de [coinbase](https://www.coinbase.com) maquetada con:
 
@@ -10,6 +12,10 @@ Proyecto final para el curso de HTML y CSS de [Open-Bootcamp](https://open-bootc
 
 ## Demo
 [coinbase-bootstrap.netlify.app](https://coinbase-bootstrap.netlify.app)
+
+<br>
+<img src="https://user-images.githubusercontent.com/8589135/175794411-d202f87b-de05-42a4-bf7d-e0f388389c42.gif" width="640">
+<br>
 
 ## Instalación
 
@@ -31,7 +37,10 @@ Se pueden ejecutar tres comandos:
   "bootstrap": "^5.2.0-beta1"
 },
 "devDependencies": {
+  "@babel/core": "^7.18.5",
+  "@babel/preset-env": "^7.18.2",
   "autoprefixer": "^10.4.7",
+  "babel-loader": "^8.2.5",
   "css-loader": "^6.7.1",
   "handlebars": "^4.7.7",
   "handlebars-loader": "^1.7.2",
@@ -44,11 +53,11 @@ Se pueden ejecutar tres comandos:
   "postcss": "^8.4.14",
   "postcss-loader": "^7.0.0",
   "purgecss-webpack-plugin": "^4.1.3",
-  "rimraf": "^3.0.2",
   "sass-loader": "^13.0.0",
   "terser-webpack-plugin": "^5.3.3",
   "webpack": "^5.73.0",
   "webpack-cli": "^4.10.0",
-  "webpack-dev-server": "^4.9.2"
+  "webpack-dev-server": "^4.9.2",
+  "webpack-merge": "^5.8.0"
 }
 ```

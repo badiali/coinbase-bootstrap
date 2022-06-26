@@ -37,7 +37,10 @@ Se pueden ejecutar tres comandos:
   "bootstrap": "^5.2.0-beta1"
 },
 "devDependencies": {
+  "@babel/core": "^7.18.5",
+  "@babel/preset-env": "^7.18.2",
   "autoprefixer": "^10.4.7",
+  "babel-loader": "^8.2.5",
   "css-loader": "^6.7.1",
   "handlebars": "^4.7.7",
   "handlebars-loader": "^1.7.2",
@@ -50,11 +53,11 @@ Se pueden ejecutar tres comandos:
   "postcss": "^8.4.14",
   "postcss-loader": "^7.0.0",
   "purgecss-webpack-plugin": "^4.1.3",
-  "rimraf": "^3.0.2",
   "sass-loader": "^13.0.0",
   "terser-webpack-plugin": "^5.3.3",
   "webpack": "^5.73.0",
   "webpack-cli": "^4.10.0",
-  "webpack-dev-server": "^4.9.2"
+  "webpack-dev-server": "^4.9.2",
+  "webpack-merge": "^5.8.0"
 }
 ```

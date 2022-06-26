@@ -83,3 +83,31 @@ body {
     }
   }
 }
+
+/* Tabla de rankings */
+.table-ranking {
+  td {
+    padding: 14px 48px 14px 0px;
+    vertical-align: middle;
+  }
+  td, th {
+    vertical-align: middle;
+  }
+  thead {
+    th {
+      padding: 16px 48px 16px 0px;
+      font-size: 0.875rem;
+      color: $gray-600;
+      &:first-child {
+        padding-left: 32px;
+      }
+    }
+  }
+  tbody {
+    font-size: 1.125rem;
+    th {
+      color: $gray-600;
+      padding-left: 32px;
+    }
+  }
+}

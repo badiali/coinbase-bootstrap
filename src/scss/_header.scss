@@ -37,9 +37,6 @@
   &-list-links {
     a {
       color: $dark;
-      .text-muted {
-        opacity: 0.6;
-      }
       &:hover {
         color: $primary;
         .icon-angle {
@@ -48,7 +45,7 @@
           }
         }
         .text-muted {
-          opacity: 1;
+          color: $dark !important;
         }
       }
     }

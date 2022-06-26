@@ -3,4 +3,4 @@
  */
 
 // Quitamos los temas de colores por defecto
-$theme-colors: map-remove($theme-colors, "secondary", "success", "info", "warning", "danger", "light", "dark");
+$theme-colors: map-remove($theme-colors, "secondary", "info", "warning", "light", "dark");

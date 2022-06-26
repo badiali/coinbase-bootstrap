@@ -14,7 +14,7 @@ Proyecto final para el curso de HTML y CSS de [Open-Bootcamp](https://open-bootc
 [coinbase-bootstrap.netlify.app](https://coinbase-bootstrap.netlify.app)
 
 <br>
-<img src="https://user-images.githubusercontent.com/8589135/175794411-d202f87b-de05-42a4-bf7d-e0f388389c42.gif" width="640">
+<img src="https://user-images.githubusercontent.com/8589135/175795031-19c123b2-a6a3-4a01-b352-d6626ed7ded6.gif" width="640">
 <br>
 
 ## Instalación

@@ -22,6 +22,9 @@ import './assets/img/bars-icon.svg';
 import './assets/img/ical-icon.svg';
 import './assets/img/lock-icon.svg';
 import './assets/img/mobile-app-icon.svg';
+import './assets/img/box.svg';
+import './assets/img/paper.svg';
+import './assets/img/shield.svg';
 // Individuals
 import './assets/img/coinbase-icon.svg';
 import './assets/img/new-earn-icon.svg';

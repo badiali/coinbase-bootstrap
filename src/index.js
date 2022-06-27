@@ -7,6 +7,7 @@ import './assets/img/coinbase.svg';
 /* Imágenes */
 import './assets/img/mobile.png';
 import './assets/img/chart.png';
+import './assets/img/coinbase-app.webp';
 
 /* Iconos */
 import './assets/img/favicon.png';
@@ -17,6 +18,10 @@ import './assets/img/cardano.png';
 import './assets/img/solana.png';
 import './assets/img/the-graph.png';
 import './assets/img/amp.png';
+import './assets/img/bars-icon.svg';
+import './assets/img/ical-icon.svg';
+import './assets/img/lock-icon.svg';
+import './assets/img/mobile-app-icon.svg';
 // Individuals
 import './assets/img/coinbase-icon.svg';
 import './assets/img/new-earn-icon.svg';

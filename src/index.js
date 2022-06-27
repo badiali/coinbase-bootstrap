@@ -25,6 +25,9 @@ import './assets/img/mobile-app-icon.svg';
 import './assets/img/box.svg';
 import './assets/img/paper.svg';
 import './assets/img/shield.svg';
+import './assets/img/account.svg';
+import './assets/img/bank.svg';
+import './assets/img/buying-selling.svg';
 // Individuals
 import './assets/img/coinbase-icon.svg';
 import './assets/img/new-earn-icon.svg';

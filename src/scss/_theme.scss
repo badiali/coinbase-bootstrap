@@ -85,6 +85,17 @@ body {
 }
 
 /* Tabla de rankings */
+.table-ranking-wrap {
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 50px;
+    height: calc(100% - 31px);// 100% alto menos 31px del scroll
+    background: linear-gradient(to right, rgba(white, 0), rgba(white, 0.9));
+  }
+}
 .table-ranking {
   td {
     padding: 14px 48px 14px 0px;

@@ -6,6 +6,7 @@ import './assets/img/coinbase.svg';
 
 /* Imágenes */
 import './assets/img/mobile.png';
+import './assets/img/chart.png';
 
 /* Iconos */
 import './assets/img/favicon.png';
@@ -14,7 +15,6 @@ import './assets/img/bitcoin-yellow.png';
 import './assets/img/ethereum.png';
 import './assets/img/cardano.png';
 import './assets/img/solana.png';
-import './assets/img/graph.svg';
 // Individuals
 import './assets/img/coinbase-icon.svg';
 import './assets/img/new-earn-icon.svg';

@@ -131,6 +131,26 @@ div[class^="table-responsive"] {
       display: none;
     }
   }
+  @include media-breakpoint-only(md) {
+    border-left: none !important;
+    border-right: none !important;
+    thead {
+      th:first-of-type {
+        padding-left: 16px;
+      }
+      th:last-of-type {
+        padding-right: 0;
+      }
+    }
+    tbody {
+      th:first-of-type {
+        padding-left: 16px;
+      }
+      td:last-of-type {
+        padding-right: 0;
+      }
+    }
+  }
   @include media-breakpoint-up(md) {
     thead {
       display: table-header-group;
@@ -250,3 +270,6 @@ div[class^="table-responsive"] {
     }
   }
 }
+
+/* Footer */
+@import "footer";

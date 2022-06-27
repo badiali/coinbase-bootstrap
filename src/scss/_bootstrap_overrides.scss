@@ -2,6 +2,9 @@
  * En este archivo van las variables para configurar Bootstrap
  */
 
+/* Opciones */
+$enable-rfs: false;
+
 /* Grid */
 $grid-breakpoints: (
   xs: 0,
@@ -24,15 +27,15 @@ $dark: rgb(5, 15, 25);
 $text-muted: rgb(128, 152, 174);
 
 /* Fuente */
-$font-family-base: CoinbaseSans, sans-serif;
-$headings-font-family: CoinbaseDisplay, sans-serif;
-$font-weight-bold: bolder;
+$font-family-base: CoinbaseSans,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+$headings-font-family: CoinbaseDisplay, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+$font-weight-bold: 500;
 
 /* Links */
 $link-decoration: none;
 
 /* Buttons */
-$btn-font-weight: bolder;
+$btn-font-weight: 500;
 $btn-border-radius: 4px;
 $btn-padding-y-sm: 5px;
 $btn-padding-x-sm: 12px;

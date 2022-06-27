@@ -189,3 +189,13 @@ div[class^="table-responsive"] {
     }
   }
 }
+
+/* Stats hero */
+.stats-hero {
+  div[class^=".display-"] {
+    font-family: $font-family-base;
+  }
+  p {
+    opacity: 0.6;
+  }
+}

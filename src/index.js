@@ -8,6 +8,7 @@ import './assets/img/coinbase.svg';
 import './assets/img/mobile.png';
 import './assets/img/chart.png';
 import './assets/img/coinbase-app.webp';
+import './assets/img/earn-upsell-desktop.webp';
 
 /* Iconos */
 import './assets/img/favicon.png';

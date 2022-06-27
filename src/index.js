@@ -15,6 +15,8 @@ import './assets/img/bitcoin-yellow.png';
 import './assets/img/ethereum.png';
 import './assets/img/cardano.png';
 import './assets/img/solana.png';
+import './assets/img/the-graph.png';
+import './assets/img/amp.png';
 // Individuals
 import './assets/img/coinbase-icon.svg';
 import './assets/img/new-earn-icon.svg';

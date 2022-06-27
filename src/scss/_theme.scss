@@ -142,3 +142,32 @@ div[class^="table-responsive"] {
     }
   }
 }
+
+/* Earn banner */
+.earn-banner {
+  div[class^="col-"]:first-of-type {
+    max-width: 370px;
+  }
+  p {
+    font-size: 0.875rem
+  }
+  ul {
+    border-bottom: 1px solid $gray-300;
+    li {
+      border: 1px solid $gray-300;
+      border-bottom: none;
+      box-shadow: rgba($dark, 0) 0px 0px 0px;
+      transition: box-shadow 500ms ease 0s;
+      &:hover {
+        box-shadow: rgba($dark, 0.2) 0px 8px 24px;
+      }
+    }
+    @include media-breakpoint-up(lg) {
+      border-bottom: none;
+      li {
+        border-radius: 8px;
+        border: none;
+      }
+    }
+  }
+}

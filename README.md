@@ -1,6 +1,6 @@
 ![Imagen de cabecera coinbase.com + Bootstrap](https://repository-images.githubusercontent.com/507161928/d745ce50-0c7d-41cb-a97f-4ad92799768d)
 
-# Coinbase.com + Bootstrap
+# Coinbase + Bootstrap
 Página principal de [coinbase](https://www.coinbase.com) maquetada con:
 
 - Bootstrap

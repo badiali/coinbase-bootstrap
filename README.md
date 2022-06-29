@@ -1,6 +1,6 @@
 ![Imagen de cabecera coinbase.com + Bootstrap](https://repository-images.githubusercontent.com/507161928/d745ce50-0c7d-41cb-a97f-4ad92799768d)
 
-# coinbase.com + Bootstrap
+# Coinbase + Bootstrap
 Página principal de [coinbase](https://www.coinbase.com) maquetada con:
 
 - Bootstrap
@@ -11,6 +11,7 @@ Página principal de [coinbase](https://www.coinbase.com) maquetada con:
 Proyecto final para el curso de HTML y CSS de [Open-Bootcamp](https://open-bootcamp.com).
 
 ## Demo
+
 [coinbase-bootstrap.netlify.app](https://coinbase-bootstrap.netlify.app)
 
 <br>

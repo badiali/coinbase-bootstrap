@@ -11,6 +11,7 @@
   "keywords": [
     "bootstrap",
     "sass",
+    "handlebars",
     "webpack"
   ],
   "homepage": "https://github.com/badiali/coinbase-bootstrap#readme",

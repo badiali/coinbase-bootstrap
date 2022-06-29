@@ -18,8 +18,9 @@ module.exports = merge(common, {
     open: true,
     https: false,
     allowedHosts: "all",
-    hot: true,
+    hot: false,
     watchFiles: ["src/**/*"],
+    static: "./dist",
     client: {
       logging: "none",
       overlay: true,

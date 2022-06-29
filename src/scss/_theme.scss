@@ -89,6 +89,7 @@ body {
 
 /* Tabla de rankings */
 div[class^="table-responsive"] {
+  scrollbar-color: $primary $gray-200;
   &::-webkit-scrollbar {
     height: 15px;
   }

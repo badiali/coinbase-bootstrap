@@ -11,10 +11,11 @@ Página principal de [coinbase](https://www.coinbase.com) maquetada con:
 Proyecto final para el curso de HTML y CSS de [Open-Bootcamp](https://open-bootcamp.com).
 
 ## Demo
-**ATENCIÓN:** Al ser una copia de la página original puede salir la pantalla (fondo rojo) de web no segura, en este caso, pulsar:\
-Detalles -> accede a este sitio web no seguro.
 
 [coinbase-bootstrap.netlify.app](https://coinbase-bootstrap.netlify.app)
+
+**ATENCIÓN:** Al ser una copia de la página original puede salir la pantalla (fondo rojo) de web no segura, en este caso, pulsar:\
+Detalles -> accede a este sitio web no seguro.
 
 <br>
 <img src="https://user-images.githubusercontent.com/8589135/175795031-19c123b2-a6a3-4a01-b352-d6626ed7ded6.gif" width="640">

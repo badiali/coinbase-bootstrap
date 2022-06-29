@@ -1,6 +1,7 @@
 ![Imagen de cabecera coinbase.com + Bootstrap](https://repository-images.githubusercontent.com/507161928/d745ce50-0c7d-41cb-a97f-4ad92799768d)
 
-# Página principal de [coinbase.com](https://www.coinbase.com) maquetada con Bootstrap
+<h1>Página principal de <a target="__blank" href="https://www.coinbase.com">coinbase.com</a><br> 
+maquetada con Bootstrap</h1>
 
 ### Herramientas que he usado:
 
